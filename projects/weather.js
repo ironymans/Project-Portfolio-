@@ -2,7 +2,7 @@
 alert('Welcome to the Weather App! 🌤️');
 document.getElementById('get-weather').addEventListener('click', function() {
   const city = document.getElementById('city-input').value.trim();
-  const apiKey = 'AIzaSyDXyHphz59zhl6lXwN4JbdsaemoVDItwXc'; // 🔑 Replace with your OpenWeatherMap API key
+  const apiKey = ''; // 🔑 Replace with your OpenWeatherMap API key
 
   if (city === '') {
     alert('Please enter a city name');
